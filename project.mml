@@ -1,0 +1,203 @@
+{
+  "bounds": [
+    -110.5554,
+    35.6573,
+    -100.2942,
+    42.1715
+  ],
+  "center": [
+    -106.6992,
+    38.7498,
+    7
+  ],
+  "format": "png8",
+  "interactivity": false,
+  "minzoom": 7,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "extent": [
+        -110.42046867237872,
+        35.71538967789587,
+        -100.70165888746425,
+        41.99610080148032
+      ],
+      "id": "riverline",
+      "class": "",
+      "Datasource": {
+        "file": "layers/riverline/STREAMRIVERS.shp",
+        "id": "riverline",
+        "project": "colorado_rivers",
+        "srs": ""
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "riverline"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -110.42046867237872,
+        35.72528381121384,
+        -100.70165888746425,
+        41.974995668179695
+      ],
+      "id": "riverlineperennial",
+      "class": "",
+      "Datasource": {
+        "file": "layers/riverlineperennial/STREAMRIVERS_perernnial.shp",
+        "id": "riverlineperennial",
+        "project": "colorado_rivers",
+        "srs": ""
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "riverlineperennial"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -110.42046867237872,
+        35.72528381121384,
+        -100.70165888746425,
+        41.974995668179695
+      ],
+      "id": "streamriversperernni",
+      "class": "",
+      "Datasource": {
+        "file": "layers/riverlineperennial/STREAMRIVERS_perernnial.shp",
+        "id": "streamriversperernni",
+        "project": "colorado_rivers",
+        "srs": ""
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "streamriversperernni"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -110.42152560571037,
+        35.722344877885064,
+        -100.67864184479161,
+        42.156050601231996
+      ],
+      "id": "lakesreservoirs",
+      "class": "",
+      "Datasource": {
+        "file": "layers/lakesreservoirs/lakes_reservoirs.shp",
+        "id": "lakesreservoirs",
+        "project": "colorado_rivers",
+        "srs": ""
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "lakesreservoirs"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -110.50615067241546,
+        35.721572410938165,
+        -100.67573142326643,
+        42.02704880106148
+      ],
+      "id": "arearivers",
+      "class": "",
+      "Datasource": {
+        "file": "layers/arearivers/river_areas_NHD_w_names.shp",
+        "id": "arearivers",
+        "project": "colorado_rivers",
+        "srs": "",
+        "proj": "longlat",
+        "ellps": "GRS80",
+        "datum": "NAD83"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "proj": "longlat",
+        "ellps": "GRS80",
+        "datum": "NAD83"
+      },
+      "name": "arearivers"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -110.42046867237872,
+        35.71538967789587,
+        -100.70165888746425,
+        41.99610080148032
+      ],
+      "id": "riverlineslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/riverlinelabels/STREAMRIVERS.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "riverlineslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -110.42152560571037,
+        35.722344877885064,
+        -100.67864184479161,
+        42.156050601231996
+      ],
+      "id": "lakesreservoirslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/lakesreservoirslabels/lakes_reservoirs.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "lakesreservoirslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -110.50615067241546,
+        35.721572410938165,
+        -100.67573142326643,
+        42.02704880106148
+      ],
+      "id": "areariverslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/areariverslabels/river_areas_NHD_w_names.shp"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "areariverslabels"
+    }
+  ],
+  "scale": 1,
+  "metatile": 15,
+  "name": "CO Rivers",
+  "description": "",
+  "attribution": ""
+}
